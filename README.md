@@ -7,7 +7,7 @@ pip install -r requirements.txt
 
 #### 2.创建一个名为postgres的数据库
 
-#### 3.修改db.py中的数据库连接字符串 SQLALCHEMY_DATABASE_URL 以及 sqlalchemy.url
+#### 3.修改db.py中的数据库连接字符串 SQLALCHEMY_DATABASE_URL 以及 alembic/env.py中的 sqlalchemy.url
 
 #### 4.生成迁移脚本
 ```
